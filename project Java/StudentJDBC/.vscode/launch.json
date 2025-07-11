@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch App",
+      "request": "launch",
+      "mainClass": "App",
+      "projectName": "StudentJDBC",     // tên thư mục project hoặc tên trong .classpath
+      "classPaths": [                   // <– để ý chữ “P”
+        "bin",
+        "lib/mssql-jdbc-12.10.1.jre11.jar"
+      ]
+    }
+  ]
+}
