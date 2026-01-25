@@ -40,6 +40,6 @@ This repository demonstrates how to integrate **Java** with a **SQL database** f
 ---
 
 ## ⚙️ 4. How to Run
-1. Import the SQL schema:  
-   ```bash
-   mysql -u root -p < Script_StudentDB.sql
+1. Read the command line code in file **run.sh** in **.vscode** folder and paste it to your terminal
+2. Make sure you have installed docker and azure
+3. ✨ Note: This project originally comes from a major assignment at a university of one of my acquaintances. By some stroke of luck, I tried working on it myself and ended up completing the entire task on my own.
